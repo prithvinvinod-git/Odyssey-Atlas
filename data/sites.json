@@ -1,0 +1,82 @@
+[
+  {
+    "id": "malapert",
+    "name": "Malapert Massif",
+    "lat": -85.9,
+    "lon": 356.2,
+    "elevation_m": 5000,
+    "description": "Highland massif near the south pole with extended illumination. Artemis III candidate region.",
+    "nasa_source_url": "https://www.nasa.gov/feature/artemis/artemis-iii-candidate-landing-regions",
+    "color": "#FFB800"
+  },
+  {
+    "id": "haworth",
+    "name": "Haworth",
+    "lat": -87.3,
+    "lon": 345.8,
+    "elevation_m": 2200,
+    "description": "Crater rim region with favorable lighting conditions. Artemis III candidate region.",
+    "nasa_source_url": "https://www.nasa.gov/feature/artemis/artemis-iii-candidate-landing-regions",
+    "color": "#FF8C00"
+  },
+  {
+    "id": "shackleton",
+    "name": "Shackleton Rim",
+    "lat": -89.9,
+    "lon": 0.0,
+    "elevation_m": 3500,
+    "description": "Rim of Shackleton crater, near-permanent illumination on peaks. Artemis III candidate region.",
+    "nasa_source_url": "https://www.nasa.gov/feature/artemis/artemis-iii-candidate-landing-regions",
+    "color": "#FFD700"
+  },
+  {
+    "id": "de_gerlache",
+    "name": "de Gerlache Rim",
+    "lat": -88.5,
+    "lon": 78.2,
+    "elevation_m": 2800,
+    "description": "Rim of de Gerlache crater with extended sunlit periods. Artemis III candidate region.",
+    "nasa_source_url": "https://www.nasa.gov/feature/artemis/artemis-iii-candidate-landing-regions",
+    "color": "#FFA500"
+  },
+  {
+    "id": "nobile",
+    "name": "Nobile Rim",
+    "lat": -84.8,
+    "lon": 317.5,
+    "elevation_m": 1900,
+    "description": "Rim of Nobile crater with good Earth visibility. Artemis III candidate region.",
+    "nasa_source_url": "https://www.nasa.gov/feature/artemis/artemis-iii-candidate-landing-regions",
+    "color": "#FF6B00"
+  },
+  {
+    "id": "connecting_ridge",
+    "name": "Connecting Ridge",
+    "lat": -85.2,
+    "lon": 352.1,
+    "elevation_m": 3200,
+    "description": "High ridge connecting massifs with near-continuous illumination. Artemis III candidate region.",
+    "nasa_source_url": "https://www.nasa.gov/feature/artemis/artemis-iii-candidate-landing-regions",
+    "color": "#FF4500"
+  },
+  {
+    "id": "amundsen",
+    "name": "Amundsen Rim",
+    "lat": -84.5,
+    "lon": 82.8,
+    "elevation_m": 2100,
+    "description": "Rim of Amundsen crater with favorable lighting and Earth view. Artemis III candidate region.",
+    "nasa_source_url": "https://www.nasa.gov/feature/artemis/artemis-iii-candidate-landing-regions",
+    "color": "#E67E22"
+  },
+  {
+    "id": "leibnitz_beta",
+    "name": "Leibnitz Beta Plateau",
+    "lat": -85.7,
+    "lon": 295.4,
+    "elevation_m": 4200,
+    "description": "Elevated plateau region with extended sunlit periods. Artemis III candidate region.",
+    "nasa_source_url": "https://www.nasa.gov/feature/artemis/artemis-iii-candidate-landing-regions",
+    "color": "#D35400"
+  }
+]

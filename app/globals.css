@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --space-bg: #05070D;
+  --space-elevated: #0A0E1A;
+  --space-panel: rgba(10, 14, 26, 0.85);
+  --space-border: rgba(148, 163, 184, 0.15);
+  --sun: #FFB800;
+  --sun-glow: rgba(255, 184, 0, 0.6);
+  --earth: #00D4FF;
+  --earth-glow: rgba(0, 212, 255, 0.6);
+  --both: #22FF88;
+  --both-glow: rgba(34, 255, 136, 0.6);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #__next {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: var(--space-bg);
+  color: #E2E8F0;
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+::selection {
+  background: rgba(255, 184, 0, 0.3);
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--space-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.3);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.5);
+}
+
+.canvas-container {
+  touch-action: none;
+}
+
+.glass-panel {
+  background: var(--space-panel);
+  backdrop-filter: blur(8px);
+  border: 1px solid var(--space-border);
+  border-radius: 8px;
+}
+
+.text-mono {
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+.btn-primary {
+  @apply px-4 py-2 rounded-lg bg-amber-500/20 border border-amber-500/50 text-amber-400 font-medium
+         hover:bg-amber-500/30 transition-colors focus:outline-none focus:ring-2 focus:ring-amber-500/50
+         disabled:opacity-50 disabled:cursor-not-allowed;
+}
+
+.btn-secondary {
+  @apply px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-white/90 font-medium
+         hover:bg-white/10 transition-colors focus:outline-none focus:ring-2 focus:ring-white/20;
+}
+
+.input-field {
+  @apply w-full px-3 py-2 rounded-lg bg-slate-900/50 border border-slate-700/50 text-white
+         placeholder:text-white/40 focus:outline-none focus:border-amber-500/50 focus:ring-1 focus:ring-amber-500/50
+         transition-colors;
+}
+
+.label-text {
+  @apply text-xs text-white/60 uppercase tracking-wider mb-1;
+}
